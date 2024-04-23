@@ -33,13 +33,14 @@ This is the assignment for Spring CT
     composer install
     ```
 6. Create a DB in mysql and update configuration in .env file
-ex.
+     ```bash
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
     DB_DATABASE=springct
     DB_USERNAME=root
     DB_PASSWORD=root
+    ```
 7. Run database migration:
     ```bash
     php artisan migrate
